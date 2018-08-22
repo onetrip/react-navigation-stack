@@ -168,8 +168,9 @@ class Header extends React.PureComponent {
         allowFontScaling={allowFontScaling == null ? true : allowFontScaling}
         style={[
           color ? { color } : null,
-          { textAlign: 'center' }
-
+          layoutPreset === 'center'
+            ? { textAlign: 'center' }
+            : { textAlign: 'left' },
           titleStyle,
         ]}
       >
@@ -702,3 +703,5 @@ const styles = StyleSheet.create({
 });
 
 export default withOrientation(Header);
+
+/* */
