@@ -161,7 +161,7 @@ const styles = StyleSheet.create({
           height: 22,
           width: 22,
           marginLeft: 5,
-          marginTop:7,
+          marginTop:5,
           resizeMode: 'contain',
           transform: [{ scaleX: I18nManager.isRTL ? -1 : 1 }],
         },
