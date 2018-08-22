@@ -168,9 +168,8 @@ class Header extends React.PureComponent {
         allowFontScaling={allowFontScaling == null ? true : allowFontScaling}
         style={[
           color ? { color } : null,
-          layoutPreset === 'center'
-            ? { textAlign: 'center' }
-            : { textAlign: 'left' },
+          { textAlign: 'center' }
+
           titleStyle,
         ]}
       >
