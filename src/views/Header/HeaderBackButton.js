@@ -10,7 +10,7 @@ import {
 
 import TouchableItem from '../TouchableItem';
 
-const defaultBackImage = require('../assets/ic_back.png');
+const defaultBackImage = require('../assets/nav_back_black.png');
 
 class HeaderBackButton extends React.PureComponent {
   static defaultProps = {
