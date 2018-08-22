@@ -10,7 +10,7 @@ import {
 
 import TouchableItem from '../TouchableItem';
 
-const defaultBackImage = require('../assets/back-icon.png');
+const defaultBackImage = require('../assets/ic_back.png');
 
 class HeaderBackButton extends React.PureComponent {
   static defaultProps = {
@@ -149,18 +149,19 @@ const styles = StyleSheet.create({
   icon:
     Platform.OS === 'ios'
       ? {
-          height: 21,
-          width: 13,
-          marginLeft: 9,
+          height: 22,
+          width: 22,
+          marginLeft: 15,
           marginRight: 22,
           marginVertical: 12,
           resizeMode: 'contain',
           transform: [{ scaleX: I18nManager.isRTL ? -1 : 1 }],
         }
       : {
-          height: 24,
-          width: 24,
-          margin: 3,
+          height: 22,
+          width: 22,
+          marginLeft: 15,
+          marginTop:14,
           resizeMode: 'contain',
           transform: [{ scaleX: I18nManager.isRTL ? -1 : 1 }],
         },

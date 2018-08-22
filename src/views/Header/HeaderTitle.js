@@ -14,8 +14,9 @@ const HeaderTitle = ({ style, ...rest }) => (
 
 const styles = StyleSheet.create({
   title: {
-    fontSize: Platform.OS === 'ios' ? 17 : 20,
-    fontWeight: Platform.OS === 'ios' ? '600' : '500',
+    fontSize: Platform.OS === 'ios' ? 17 : 17,
+    fontWeight: Platform.OS === 'ios' ? '300' : '300',
+    alignItems:'center',
     color: 'rgba(0, 0, 0, .9)',
     marginHorizontal: 16,
   },
