@@ -16,8 +16,6 @@ const styles = StyleSheet.create({
   title: {
     fontSize: Platform.OS === 'ios' ? 17 : 17,
     fontWeight: Platform.OS === 'ios'? '300' : '300',
-    alignItems:'center',
-    textAlign: 'center',
     color: '#333333',
     marginHorizontal: 16,
   },
