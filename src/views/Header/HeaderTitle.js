@@ -18,7 +18,7 @@ const styles = StyleSheet.create({
     fontWeight: Platform.OS === 'ios'? '300' : '300',
     alignItems:'center',
     textAlign: 'center',
-    color: 'rgba(0, 0, 0, .9)',
+    color: '#333333',
     marginHorizontal: 16,
   },
 });
