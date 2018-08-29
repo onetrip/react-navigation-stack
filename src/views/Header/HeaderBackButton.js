@@ -16,7 +16,7 @@ class HeaderBackButton extends React.PureComponent {
   static defaultProps = {
     pressColorAndroid: 'rgba(0, 0, 0, .32)',
     tintColor: Platform.select({
-      ios: '#037aff',
+      ios: '#484848',
     }),
     truncatedTitle: 'Back',
   };
